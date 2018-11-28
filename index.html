@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Title</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form id="generateMatrix">
+    <h1>Choose matrix size:</h1>
+    <button value="3">3 x 3</button>
+    <button value="4">4 x 4</button>
+    <button value="5">5 x 5</button> 
+    <button value="6">6 x 6</button>
+    <button value="7">7 x 7</button>
+    <button value="50">50 x 50</button>
+  </form>
+  <div id="main">
+    <table id="before"></table>
+    <h2 class="hidden">Result of rotation:</h2>
+    <table id="after"></table>
+  </div>
+  <form class="hidden">
+    <button id="rotateLeft">Rotate Left</button>
+    <button id="rotateRight">Rotate Right</button>
+  </form>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
